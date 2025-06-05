@@ -43,3 +43,6 @@ background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 
   z-index: -1;
 }
 
+.data-container{
+  box-shadow: 10px 7px 20px white;
+}

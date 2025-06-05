@@ -64,7 +64,7 @@ const App = () => {
   return (
     <>
       <div className="w-full h-screen flex justify-center items-center  px-4 md:px-8">
-        <div className="border-5 border-white rounded-2xl p-4">
+        <div className="border-5 border-white rounded-2xl p-4 data-container">
           <input
             required
             type="text"
