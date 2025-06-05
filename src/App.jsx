@@ -58,7 +58,7 @@ const App = () => {
       console.log(response.data);
       setCityName("");
     } catch (error) {
-      alert(error.message);
+      alert(`${cityName} not found. Enter Correct City Name please.`,error.message);
     }
   };
   return (
