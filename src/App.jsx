@@ -80,7 +80,7 @@ const App = () => {
               }
             }}
           />
-          <button className="button" onClick={fetchData}>
+          <button className="button-6" onClick={fetchData}>
             Search
           </button>
           <div>
