@@ -64,12 +64,12 @@ const App = () => {
   return (
     <>
       <div className="w-full h-screen flex justify-center items-center  px-4 md:px-8">
-        <div className="border-5 border-white rounded-2xl p-4 data-container">
+        <div className="border-5 border-white rounded-2xl p-4 data-container flex-wrap overflow-hidden">
           <input
             required
             type="text"
             placeholder="Enter any City Name"
-            className="rounded-2xl outline-none p-4 bg-cyan-50 mr-1"
+            className="rounded-2xl outline-none p-4 bg-cyan-50 mr-1 w-full"
             value={cityName}
             onChange={(e) => {
               setCityName(e.target.value);
